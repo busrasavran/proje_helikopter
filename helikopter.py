@@ -1,5 +1,5 @@
 class Helicopter(SilahliKuvvetler):
-    “ Bu class helikopterleri temsil eder” - Büşra
+   
     def __init__(self,name,yearOfStart,origin):
        SilahliKuvvetler.__init__(self, name, yearOfStart)
        self.origin=origin
